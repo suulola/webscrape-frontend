@@ -1,0 +1,42 @@
+#simpleHome {
+    background-image: url('../assets/b.jpg');
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home {
+    background-image: url('../assets/bharath-g-s-aLGiPJ4XRO4-unsplash.jpg');
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    padding-left: 10px;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgba(131, 130, 130, 0.6);
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    max-height: 40px;
+    border-radius: 10px;
+    background-color: rgb(97, 116, 177);
+    color: white;
+}
+
+#carouselExampleIndicators img {
+    max-height: 60vh;
+    
+}
